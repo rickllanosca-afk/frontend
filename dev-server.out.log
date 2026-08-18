@@ -1,0 +1,24 @@
+
+> Ntonyxai-corporate-website@1.0.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.5.22
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.100.10:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 10.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 11.9s (1504 modules)
+ GET / 200 in 16957ms
+ GET / 200 in 8318ms
+ GET / 200 in 1567ms
+ ✓ Compiled in 21.6s (1518 modules)
+ GET / 200 in 3273ms
+ ✓ Compiled in 2.2s (1518 modules)
+ GET / 200 in 1046ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 9.5s (1865 modules)
+ GET / 500 in 38276ms
+ GET / 200 in 11988ms

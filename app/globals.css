@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f6f9ff;
+  color: #16233a;
+}
+
+::selection {
+  background: rgba(91, 141, 239, 0.24);
+}
+
+.focus-ring {
+  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-electric;
+}
+
+.gradient-text {
+  @apply text-electric;
+}
+
+.mesh-bg {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(91, 141, 239, 0.14), transparent 34%),
+    radial-gradient(circle at 88% 14%, rgba(169, 199, 255, 0.2), transparent 30%),
+    linear-gradient(180deg, #ffffff 0%, #eef4ff 100%);
+}
+
+.dark-mesh {
+  background:
+    radial-gradient(circle at 16% 12%, rgba(169, 199, 255, 0.42), transparent 34%),
+    radial-gradient(circle at 84% 10%, rgba(91, 141, 239, 0.22), transparent 32%),
+    radial-gradient(circle at 50% 95%, rgba(120, 149, 214, 0.16), transparent 34%),
+    linear-gradient(135deg, #ffffff 0%, #f3f7ff 46%, #e8f0ff 100%);
+}
