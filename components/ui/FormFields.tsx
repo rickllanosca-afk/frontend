@@ -61,7 +61,7 @@ export function SmartForm({ fields, fileUpload = false, submitLabel, formName }:
         </label>
       ))}
       {fileUpload ? <input required name="cv" type="file" accept="application/pdf" className="focus-ring rounded-md border border-ink/15 p-3 text-sm" /> : null}
-      <label className="flex gap-3 text-sm text-muted"><input required name="consent" value="Yes" type="checkbox" className="mt-1" /> I consent to Ntonyxai contacting me about this submission.</label>
+      <label className="flex gap-3 text-sm text-muted"><input required name="consent" value="Yes" type="checkbox" className="mt-1" /> I consent to avorynai contacting me about this submission.</label>
       {message ? <p role="status" className="rounded-md bg-mist p-3 text-sm text-ink">{message}</p> : null}
       <Button type="submit" disabled={submitting}>{submitting ? "Sending..." : submitLabel}</Button>
     </form>

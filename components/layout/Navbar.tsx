@@ -22,8 +22,8 @@ export function Navbar() {
     <header className={`fixed inset-x-0 top-0 z-50 border-b border-electric/10 transition ${scrolled ? "bg-white shadow-lg" : "bg-white/90 shadow-md backdrop-blur-md"}`}>
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-6" aria-label="Primary navigation">
         <Link href="/" className="focus-ring flex items-center gap-3 rounded-md">
-          <Image src="/images/ntonyxai-logo-clean.png" width={120} height={100} alt="Ntonyxai logo" className="h-8 w-auto object-contain md:h-10" priority />
-          <span className="font-display text-lg font-bold text-ink md:text-xl">Ntonyxai</span>
+          <Image src="/images/avorynai-logo.png" width={120} height={100} alt="avorynai logo" className="h-8 w-auto object-contain md:h-10" priority />
+          <span className="font-display text-lg font-bold text-ink md:text-xl">avorynai</span>
         </Link>
         <div className="hidden items-center gap-6 lg:flex">
           {navLinks.map((link) => <Link key={link.href} className="focus-ring rounded px-1 py-1 text-sm font-bold text-ink hover:text-electric" href={link.href}>{link.label}</Link>)}

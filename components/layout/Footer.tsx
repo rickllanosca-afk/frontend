@@ -44,10 +44,10 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 md:grid-cols-[1.2fr_1fr_1fr_1.2fr] md:px-6">
         <div>
           <div className="flex items-center gap-3">
-            <Image src="/images/ntonyxai-logo-clean.png" width={120} height={100} alt="Ntonyxai logo" className="h-10 w-auto object-contain" />
-            <span className="font-display text-xl font-bold">Ntonyxai</span>
+            <Image src="/images/avorynai-logo.png" width={120} height={100} alt="avorynai logo" className="h-10 w-auto object-contain" />
+            <span className="font-display text-xl font-bold">avorynai</span>
           </div>
-          <p className="mt-5 max-w-sm text-sm leading-7 text-muted">Ntonyxai connects people, data, and intelligent software into clear operating systems for modern teams.</p>
+          <p className="mt-5 max-w-sm text-sm leading-7 text-muted">avorynai connects people, data, and intelligent software into clear operating systems for modern teams.</p>
           <div className="mt-5 flex gap-3">
             {[Linkedin, Twitter, Github].map((Icon, i) => <a key={i} className="focus-ring rounded-md bg-mist p-2 text-electric hover:bg-electric hover:text-white" href="#" aria-label="Social link"><Icon size={18} /></a>)}
           </div>
@@ -61,7 +61,7 @@ export function Footer() {
           <div className="mt-6 flex flex-wrap gap-4 text-sm text-muted"><Link href="/privacy-policy">Privacy Policy</Link><Link href="/terms-of-use">Terms of Use</Link><Link href="/cookie-policy">Cookie Policy</Link></div>
         </div>
       </div>
-      <div className="border-t border-electric/10 px-4 py-5 text-center text-sm text-muted">Copyright 2026 Ntonyxai. All rights reserved.</div>
+      <div className="border-t border-electric/10 px-4 py-5 text-center text-sm text-muted">Copyright 2026 avorynai. All rights reserved.</div>
     </footer>
   );
 }

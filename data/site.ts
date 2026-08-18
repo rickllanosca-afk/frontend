@@ -137,7 +137,7 @@ export const detailedServices = [
   "Maintenance and Technical Support"
 ].map((title) => ({
   title,
-  description: `Ntonyxai delivers ${title.toLowerCase()} as practical systems with clear ownership, secure integrations, and measurable operational outcomes.`,
+  description: `avorynai delivers ${title.toLowerCase()} as practical systems with clear ownership, secure integrations, and measurable operational outcomes.`,
   benefits: ["Fewer manual steps", "Better handoffs", "Cleaner data flow", "Measurable outcomes"],
   useCases: ["Operations teams", "Customer workflows", "Executive reporting", "Internal productivity"],
   process: ["Map", "Prototype", "Integrate", "Validate", "Optimize"]
@@ -171,11 +171,11 @@ export const team = [
   { name: "Nadia Ellis", role: "AI Solutions Lead", bio: "Turns complex workflow problems into focused AI roadmaps and delivery plans.", image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=900&q=85" },
   { name: "Marcus Vale", role: "Engineering Director", bio: "Oversees platform architecture, system integrations, reliability, and technical delivery.", image: "https://images.unsplash.com/photo-1562788869-4ed32648eb72?auto=format&fit=crop&crop=faces&w=900&q=85" },
   { name: "Priya Bennett", role: "Product Designer", bio: "Designs calm, usable interfaces for teams working inside complex business processes.", image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&crop=faces&w=900&q=85" },
-  { name: "Anthony Shannon", role: "HR", bio: "Leads recruiting coordination, team support, and employee operations across Ntonyxai.", image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&crop=faces&w=900&q=85" }
+  { name: "Anthony Shannon", role: "HR", bio: "Leads recruiting coordination, team support, and employee operations across avorynai.", image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&crop=faces&w=900&q=85" }
 ];
 
 export const contactDetails = {
-  email: "hello@Ntonyxai.ai",
+  email: "hello@avorynai.ai",
   phone: "+1 (555) 014-8621",
   address: "123 Innovation Drive, Indianapolis, IN",
   hours: "Monday to Friday, 9:00 AM - 5:00 PM",
@@ -183,14 +183,14 @@ export const contactDetails = {
 };
 
 export const faq = [
-  "What types of businesses does Ntonyxai work with?",
-  "Can Ntonyxai build a custom AI agent?",
+  "What types of businesses does avorynai work with?",
+  "Can avorynai build a custom AI agent?",
   "How long does a project take?",
-  "Does Ntonyxai provide ongoing support?",
-  "Can Ntonyxai integrate with existing software?",
-  "Does Ntonyxai work with international clients?",
+  "Does avorynai provide ongoing support?",
+  "Can avorynai integrate with existing software?",
+  "Does avorynai work with international clients?",
   "How is project pricing determined?",
-  "How does Ntonyxai protect business data?"
+  "How does avorynai protect business data?"
 ];
 
 export const serviceIcons = { shield: ShieldCheck, link: Link2, chart: LineChart };

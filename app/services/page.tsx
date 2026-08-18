@@ -1,4 +1,4 @@
 import type { Metadata } from "next";
 import { ServicesPage } from "@/components/sections/PageBlocks";
-export const metadata: Metadata = { title: "Services", description: "AI agent development, automation, machine learning, chatbots, software, integrations, analytics, and consulting.", openGraph: { title: "Ntonyxai Services" } };
+export const metadata: Metadata = { title: "Services", description: "AI agent development, automation, machine learning, chatbots, software, integrations, analytics, and consulting.", openGraph: { title: "avorynai Services" } };
 export default ServicesPage;

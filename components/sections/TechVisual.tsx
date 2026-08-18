@@ -8,7 +8,7 @@ export function TechVisual() {
     <div className="relative min-h-[360px] overflow-hidden rounded-lg border border-electric/20 bg-white/75 shadow-glow backdrop-blur">
       <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 26, ease: "linear" }} className="absolute left-1/2 top-1/2 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full border border-electric/50" />
       <motion.div animate={{ scale: [1, 1.08, 1] }} transition={{ repeat: Infinity, duration: 4 }} className="absolute left-1/2 top-1/2 h-36 w-36 -translate-x-1/2 -translate-y-1/2 rounded-md bg-white/95 p-5 text-ink shadow-glow">
-        <p className="text-xs font-bold uppercase tracking-[0.18em] text-electric">Ntonyxai Core</p>
+        <p className="text-xs font-bold uppercase tracking-[0.18em] text-electric">avorynai Core</p>
         <p className="mt-4 font-display text-2xl font-bold">AI Workflow Engine</p>
       </motion.div>
       {dots.map((dot, i) => <motion.span key={dot} animate={{ y: [0, -12, 0] }} transition={{ repeat: Infinity, duration: 3 + i, delay: i * 0.2 }} className={`absolute ${dot} h-4 w-4 rounded-full bg-royal shadow-card`} />)}
