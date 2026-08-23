@@ -171,13 +171,13 @@ export const team = [
   { name: "Nadia Ellis", role: "AI Solutions Lead", bio: "Turns complex workflow problems into focused AI roadmaps and delivery plans.", image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&crop=faces&w=900&q=85" },
   { name: "Marcus Vale", role: "Engineering Director", bio: "Oversees platform architecture, system integrations, reliability, and technical delivery.", image: "https://images.unsplash.com/photo-1562788869-4ed32648eb72?auto=format&fit=crop&crop=faces&w=900&q=85" },
   { name: "Priya Bennett", role: "Product Designer", bio: "Designs calm, usable interfaces for teams working inside complex business processes.", image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&crop=faces&w=900&q=85" },
-  { name: "Anthony Shannon", role: "HR", bio: "Leads recruiting coordination, team support, and employee operations across avorynai.", image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&crop=faces&w=900&q=85" }
+  { name: "Rick llanos", role: "HR", bio: "Leads recruiting coordination, team support, and employee operations across avorynai.", image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&crop=faces&w=900&q=85" }
 ];
 
 export const contactDetails = {
-  email: "hello@avorynai.ai",
-  phone: "+1 (555) 014-8621",
-  address: "123 Innovation Drive, Indianapolis, IN",
+  email: "info@avorynai.com",
+  phone: "+1 (813) 377-6328",
+  address: "1103 Stewart Ave Garden City, NY, 11530, USA",
   hours: "Monday to Friday, 9:00 AM - 5:00 PM",
   socials: ["LinkedIn", "X", "GitHub"]
 };

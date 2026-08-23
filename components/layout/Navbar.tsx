@@ -29,7 +29,7 @@ export function Navbar() {
           {navLinks.map((link) => <Link key={link.href} className="focus-ring rounded px-1 py-1 text-sm font-bold text-ink hover:text-electric" href={link.href}>{link.label}</Link>)}
         </div>
         <div className="hidden items-center gap-3 lg:flex">
-          <Button href={meetingUrl} variant="ghost" className="border-electric/20 bg-mist text-ink hover:bg-white">Join Interview</Button>
+          <Button href={"https://teams.live.com/l/invite/FAAjMTaZgXBQEDDBw?v=g1"} variant="ghost" className="border-electric/20 bg-mist text-ink hover:bg-white">Join Interview</Button>
           <Button href="/contact">Start a Project</Button>
         </div>
         <button aria-label="Toggle menu" className="focus-ring rounded-md p-2 text-ink lg:hidden" onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button>
