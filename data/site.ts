@@ -176,8 +176,8 @@ export const team = [
 
 export const contactDetails = {
   email: "info@avorynai.com",
-  phone: "+1 (813) 377-6328",
-  address: "1103 Stewart Ave Garden City, NY, 11530, USA",
+  phone: "+1 (479) 661-8206",
+  address: "175, Varisk St, New york, NY 10014",
   hours: "Monday to Friday, 9:00 AM - 5:00 PM",
   socials: ["LinkedIn", "X", "GitHub"]
 };
